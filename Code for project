@@ -1,0 +1,24 @@
+//chp 15 Type checking, Smart casts
+ //Type checking check variable is of a certain type
+ //Smart casts casting variable to a certain type
+
+fun main(args: Array<String>) {
+println(typeChecker("Coding Ambitions"))
+    println(typeChecker(5))
+
+}
+
+ fun typeChecker(obj: Any) {
+     if (obj is String) {
+     }
+     when (obj) {
+         is String -> {
+             //smartCasted to String
+             println("obj is String && it's length is ${obj.length}")
+         }
+         is Int -> {
+             //smartCasted to Int
+             println("obj is Int")
+         }
+     }
+ }
