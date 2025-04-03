@@ -1,2 +1,2 @@
-# type-Checking-Smart-casts
+# Type-Checking-Smart-casts
 chapter 15
